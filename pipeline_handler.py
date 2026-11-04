@@ -4,6 +4,9 @@ from parser.parsers import PARSERS
 from parser.source_a import truth_card_a
 from transformer.transform import make_variation, make_variation_b
 
+# True = השתמש בנתוני האמת הקבועים במקום לפרסר את ה-OCR
+USE_TRUTH = False
+
 
 def run_pipeline(rtype, txt, CONDITIONS, OUT_DIR, HOW_MANY):
     if rtype == ReportType.A:

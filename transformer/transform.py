@@ -3,7 +3,7 @@ import random
 from dataclasses import dataclass
 from datetime import date, time
 
-from calc import MONTHS, row_hours
+from transformer.calc import MONTHS, row_hours
 from models import MIN_DAY_HOURS, AttendanceRowA, ReportA, minutes
 from collections import defaultdict
 

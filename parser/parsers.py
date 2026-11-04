@@ -5,7 +5,7 @@ from datetime import date, time
 
 from transformer.calc import MONTHS, row_hours
 from models import ReportType, ReportA, ReportB, AttendanceRowA, AttendanceRowB
-from parsing import parse_time, parse_date
+from parser.parsing import parse_time, parse_date
 
 BIDI = re.compile(r"[\u200e\u200f\u202a-\u202e\u2066-\u2069]")
 DATE = re.compile(r"\d{1,2}/\d{1,2}/\d{2,4}")

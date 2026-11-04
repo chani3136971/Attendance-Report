@@ -5,7 +5,7 @@ from sampels.ocr_card_a import get_text
 from transformer.transform import Conditions
 from pipeline_handler import run_pipeline
 
-CARD_PATH = Path(r"E:\פרקטיקות\lesson2\data\outputs\n_r_10_n_NEW.pdf")
+CARD_PATH = Path(r"C:\Users\User\Desktop\מחשבים\פרקטיקוד\inputs\n_r_10_n.pdf")
 OUT_DIR = Path(__file__).parent / "generated"
 HOW_MANY = 3
 CONDITIONS = Conditions(
